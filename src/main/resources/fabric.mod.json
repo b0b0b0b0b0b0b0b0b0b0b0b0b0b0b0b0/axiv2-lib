@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "com_moulberry_axiomclientapi",
+  "version": "1.0.0",
+  "name": "axiomclientapi",
+  "custom": {
+    "fabric-loom:generated": true
+  }
+}
