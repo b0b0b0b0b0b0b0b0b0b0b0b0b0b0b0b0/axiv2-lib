@@ -68,6 +68,10 @@ jar {
     from("LICENSE") {
         rename { "${it}_${project.archivesBaseName}" }
     }
+
+    from("axiomclientapi") {
+        into("com/moulberry/axiomclientapi")
+    }
 }
 
 // configure the maven publication
