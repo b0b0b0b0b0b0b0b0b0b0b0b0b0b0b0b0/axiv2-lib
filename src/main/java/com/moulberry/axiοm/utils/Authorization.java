@@ -11,7 +11,7 @@ public class Authorization {
     public Authorization() {}
 
     public static String getUserAgent() {
-        return "Axiom/4.6.2";
+        return "Axiom/4.7.1";
     }
 
     public static CompletableFuture<Meta> getMeta() {
@@ -20,7 +20,7 @@ public class Authorization {
             changelog.add("Мод был Взломан: bobobo & Kwilz");
             changelog.add("https://black-minecraft.com/resources/4766/");
 
-            return new Meta("4.6.2", changelog, null, false);
+            return new Meta("4.7.1", changelog, null, false);
         });
     }
 
